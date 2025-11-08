@@ -7,11 +7,17 @@ View the original spigot resource page [here](https://www.spigotmc.org/threads/2
 Include this in your dependencies:
 ```xml
 <dependency>
-    <groupId>com.undeadlydev.nbteditor</groupId>
+    <groupId>com.github.UnDeadlyDev</groupId>
     <artifactId>nbteditor</artifactId>
-    <version>7.19.11</version>
+    <version>8.0.0</version>
 </dependency>
 ```
+
+## Gradle
+```xml
+  implementation 'com.github.UnDeadlyDev:NBTEditor:8.0.0'
+```
+
 
 You'll need to include the [CodeMC](https://ci.codemc.io/) Maven repository too:
 ```xml
